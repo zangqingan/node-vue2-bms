@@ -1,0 +1,20 @@
+{
+  "name": "node-vue2-bms-server",
+  "version": "1.0.0",
+  "description": "vue2版本通用后台系统的后台服务,使用express和mongodb搭建",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zangqingan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.0-beta.1",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
