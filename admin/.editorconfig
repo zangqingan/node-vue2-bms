@@ -1,0 +1,51 @@
+# EditorConfig is awesome: http://EditorConfig.org
+# 告诉EditorConfig插件，是否是顶级配置文件，设置为true的时候不用继续往上查找
+root = true
+
+# 匹配全部文件
+[*]
+# 设置字符集
+charset = utf-8
+indent_size = 4
+# Unix-style newlines with a newline ending every file
+# 结尾换行符，可选lf、cr、crlf
+end_of_line = lf
+# 在文件结尾插入新行 即：末尾行后加多一行空行
+insert_final_newline = true
+# 删除一行中的前后空格
+trim_trailing_whitespace = true
+
+# 匹配.vue文件
+[*.vue]
+# 缩进风格类型，可选space、tab
+indent_style = tab
+# 缩进的空格数量
+indent_size = 4
+
+# 匹配.js文件
+[*.js]
+indent_style = tab
+
+# 匹配.scss文件
+[*.scss]
+indent_style = tab
+
+# 匹配md结尾的文件
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+# Indentation override for all JS under lib directory
+[lib/**.js]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = tab
+
+
+
+
+
+
+

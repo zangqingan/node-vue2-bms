@@ -2,9 +2,19 @@
 node + mongodb + vue2.x全家桶-通用后台管理系统
 前端项目由vue2.x全家桶 + element-ui 搭建
 后端服务由express + mongodb搭建
-# 二、admin
+# 二、前端目录admin
+## 2.1 初始化前端项目
+使用vue-cli构建的vue2.x全家桶项目。
+安装脚手架npm install -g @vue/cli
+查看是否安装成功 vue --version
+创建项目 vue create 项目名
+选择只有babel和eslint的模板，其它插件自己使用vue add 插件名或者npm install 包名，安装配置一遍。
+添加 .editorconfig文件，帮助跨各种编辑器和ide在同一个项目上工作的多个开发人员维护一致的编码风格。vscode需要配合EditorConfig for VS Code插件。
+添加 .env.development，.env.production，区分开发和生产环境。
+添加 .eslintignore，.eslintrc.js，开启代码检测。
 
-# 三、server
+
+# 三、服务端目录server
 ## 3.1 初始化后台服务
 目录结构
 server
