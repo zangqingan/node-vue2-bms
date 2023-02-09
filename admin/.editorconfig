@@ -17,10 +17,10 @@ trim_trailing_whitespace = true
 
 # 匹配.vue文件
 [*.vue]
-# 缩进风格类型，可选space、tab
+# 缩进风格类型可选space、tab
 indent_style = tab
 # 缩进的空格数量
-indent_size = 4
+indent_size = 2
 
 # 匹配.js文件
 [*.js]
